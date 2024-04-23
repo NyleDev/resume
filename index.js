@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
             ContactNo:"09662081906",
             Email:"chenhiernylearsa18@gmail.com",
             Birthdate:"August 15 2003",
-            Gender:"male",
+            Gender:"Male",
           }  
         ],
         About_me:[
