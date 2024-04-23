@@ -1,11 +1,13 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const port = 3000;
 
+app.use(cors());
+
 app.get('/', (req, res) => {
-    const resume = 
-    {
-        Personal_Information:
+  const resume = {
+    Personal_Information:
         [ 
           {
             Name:"Chenhier Nyle Arsa",
@@ -61,10 +63,11 @@ app.get('/', (req, res) => {
 
     }
 ],
+  };
 
-};
-res.send(resume);
+  res.json(resume);
 });
+
 app.listen(port, () => {
-  console.log(`Server Running on port ${port}!`);
+  console.log(`Server running on port ${port}!`);
 });
