@@ -40,7 +40,21 @@ app.get('/', (req, res) => {
             Year:'2019-2021',
         
 
-      }
+      },
+      { 
+        Degree:'3rd degree Lahug night high school',
+        Instution: 'Lahug Night High School',
+        Year:'2019-2021',
+    
+
+  },
+  { 
+    Degree:'2nd degree Lahug night high school',
+    Instution: 'Lahug Night High School',
+    Year:'2019-2021',
+
+
+}
     ],
     
     
@@ -52,7 +66,15 @@ app.get('/', (req, res) => {
 
 
 
-    }
+    },
+    { 
+      Name:'Low Gear',
+      Contact: '09955656564',
+      Relationship: 'kainuman',
+
+
+
+}
 ],
 
  Work_Experience: [
