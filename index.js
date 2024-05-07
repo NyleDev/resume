@@ -36,14 +36,14 @@ app.get('/', (req, res) => {
      Education: [
         { 
             Degree:'Bachelor of Science in Information Technology',
-            Instution: 'University of Southern Philippines Foundation',
+            Institution: 'University of Southern Philippines Foundation',
             Year:'2019-2021',
         
 
       },
       { 
         Degree:'3rd degree Lahug night high school',
-        Instution: 'Lahug Night High School',
+        Institution: 'Lahug Night High School',
         Year:'2019-2021',
     
 
