@@ -50,7 +50,7 @@ app.get('/', (req, res) => {
   },
   { 
     Degree:'2nd degree Lahug night high school',
-    Instution: 'Lahug Night High School',
+    Institution: 'Lahug Night High School',
     Year:'2019-2021',
 
 
